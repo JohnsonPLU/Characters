@@ -1,0 +1,37 @@
+var Headx=297;
+var Heady=175;
+
+//body
+noStroke();
+fill(242, 217, 159);
+rect(Headx+17,Heady+-36,41,66);//neck
+
+fill(58, 75, 87);//pants
+rect(Headx+4,Heady+60,37,141,60);
+rect(Headx+37,Heady+61,36,140,73);
+
+fill(242, 217, 159);
+rect(Headx+-12,Heady+-2,99,92,5);//arms
+
+fill(150, 192, 255);
+rect(Headx+2,Headx-124,72,92);//shirt
+fill(242, 217, 159);
+
+stroke(242, 217, 159);
+fill(242, 217, 159);
+ellipse(Headx+36,Heady-60,108,99);//head
+
+fill(0, 0, 0);
+ellipse(Headx+16,Heady-73,19,18);//right eye
+ellipse(Headx+59,Heady-74,19,18);//left eye
+
+fill(255, 255, 255);
+ellipse(Headx+12,Heady-73,3,3);
+ellipse(Headx+53,Heady-73,3,3);
+
+fill(255, 255, 255);
+fill(255, 255, 255);
+arc(Headx+38,Heady-54,64,55,-3,183);//m
+
+fill(148,105,35);
+ellipse(Headx+35,Heady-99,79,27);//hair
